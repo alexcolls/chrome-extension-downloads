@@ -15,9 +15,3 @@ export default async function chromeExtensionDownloads(extensionUrl) {
     console.error("Error:", error.message);
   }
 }
-
-// const output = await chromeExtensionDownloads(
-//   "https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn"
-// );
-
-// console.log("Downloads:", output);
